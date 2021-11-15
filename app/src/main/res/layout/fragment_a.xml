@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/fragment_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="im Fragment A"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/chg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="改变"
+        android:textColor="#fff"
+        android:textSize="32sp" />
+</LinearLayout>

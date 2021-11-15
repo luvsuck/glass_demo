@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="#5CBD3C3C"
+            android:text="test "
+            android:textSize="24sp" />
+
+        <com.rokid.glass.ui.button.GlassButton
+            android:id="@+id/btn_1"
+            style="@style/GlassText.LargeLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_1"
+            android:layout_centerHorizontal="true"
+            android:focusable="true"
+            android:text="扫码" />
+
+        <com.rokid.glass.ui.button.GlassButton
+            android:id="@+id/btn_2"
+            style="@style/GlassText.LargeLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_1"
+            android:layout_centerHorizontal="true"
+            android:focusable="true"
+            android:text="ASR" />
+
+        <com.rokid.glass.ui.button.GlassButton
+            android:id="@+id/btn_3"
+            style="@style/GlassText.LargeLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_2"
+            android:layout_centerHorizontal="true"
+            android:focusable="true"
+            android:text="IMUView" />
+
+        <com.rokid.glass.ui.button.GlassButton
+            android:id="@+id/btn_4"
+            style="@style/GlassText.LargeLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_3"
+            android:layout_centerHorizontal="true"
+            android:focusable="true"
+            android:text="task" />
+
+        <com.rokid.glass.ui.button.GlassButton
+            android:id="@+id/btn_5"
+            style="@style/GlassText.LargeLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_4"
+            android:layout_centerHorizontal="true"
+            android:focusable="true"
+            android:text="头控" />
+
+        <com.rokid.glass.ui.button.GlassButton
+            android:id="@+id/btn_6"
+            style="@style/GlassText.LargeLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_5"
+            android:layout_centerHorizontal="true"
+            android:focusable="true"
+            android:text="指令" />
+
+        <com.rokid.glass.ui.button.GlassButton
+            android:id="@+id/btn_7"
+            style="@style/GlassText.LargeLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_6"
+            android:layout_centerHorizontal="true"
+            android:focusable="true"
+            android:text="相机" />
+
+        <com.rokid.glass.ui.button.GlassButton
+            android:id="@+id/btn_8"
+            style="@style/GlassText.LargeLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_7"
+            android:layout_centerHorizontal="true"
+            android:focusable="true"
+            android:text="录音" />
+
+        <com.rokid.glass.ui.button.GlassButton
+            android:id="@+id/btn_9"
+            style="@style/GlassText.LargeLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_8"
+            android:layout_centerHorizontal="true"
+            android:focusable="true"
+            android:text="okhttp" />
+
+        <com.rokid.glass.ui.button.GlassButton
+            android:id="@+id/btn_10"
+            style="@style/GlassText.LargeLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_9"
+            android:layout_centerHorizontal="true"
+            android:focusable="true"
+            android:text="upload" />
+
+        <com.rokid.glass.ui.button.GlassButton
+            android:id="@+id/btn_11"
+            style="@style/GlassText.LargeLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_10"
+            android:layout_centerHorizontal="true"
+            android:focusable="true"
+            android:text="test" />
+
+        <com.rokid.glass.ui.button.GlassButton
+            android:id="@+id/btn_12"
+            style="@style/GlassText.LargeLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_11"
+            android:layout_centerHorizontal="true"
+            android:focusable="true"
+            android:text="fragment" />
+
+        <TextView
+            android:id="@+id/tv_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/btn_12"
+            android:background="#6E0F0F"
+            android:maxLines="1"
+            android:text="测试文本的最大长度可以到达哪里呢尽量的长，长到放不下"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_2"
+            android:layout_marginTop="10dp"
+            android:background="#4BCD7A"
+            android:gravity="center"
+            android:text="输入文字"
+            android:textSize="24sp" />
+    </RelativeLayout>
+</ScrollView>

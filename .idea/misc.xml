@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/checkbox.xml" value="0.2916666666666667" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.184375" />
+        <entry key="app/src/main/res/drawable-v24/item_select.xml" value="0.321025641025641" />
+        <entry key="app/src/main/res/drawable/btn_style.xml" value="0.184375" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.184375" />
+        <entry key="app/src/main/res/drawable/text_view_border.xml" value="0.2861111111111111" />
+        <entry key="app/src/main/res/layout/activity_aftersalesummary.xml" value="0.3735923660720193" />
+        <entry key="app/src/main/res/layout/activity_attachmentmanagement.xml" value="0.1793478260869565" />
+        <entry key="app/src/main/res/layout/activity_camera.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/activity_container.xml" value="0.2831858407079646" />
+        <entry key="app/src/main/res/layout/activity_faultdescription.xml" value="0.3583888584003036" />
+        <entry key="app/src/main/res/layout/activity_imagelist.xml" value="0.10242615545979444" />
+        <entry key="app/src/main/res/layout/activity_imu.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/activity_instruct.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.45" />
+        <entry key="app/src/main/res/layout/activity_pointdetails.xml" value="0.2871836813695267" />
+        <entry key="app/src/main/res/layout/activity_serviceitem.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_serviceitemdetails.xml" value="0.33172923451939856" />
+        <entry key="app/src/main/res/layout/activity_soundrecord.xml" value="0.10663315379952445" />
+        <entry key="app/src/main/res/layout/activity_task.xml" value="0.39254213509030644" />
+        <entry key="app/src/main/res/layout/activity_taskdetails.xml" value="0.4098546310614361" />
+        <entry key="app/src/main/res/layout/activity_taskdetailsstep1.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_taskheader.xml" value="0.3579385053187643" />
+        <entry key="app/src/main/res/layout/activity_transactionrecord.xml" value="0.1793478260869565" />
+        <entry key="app/src/main/res/layout/activity_upload.xml" value="0.46484375" />
+        <entry key="app/src/main/res/layout/fragment_a.xml" value="0.18885869565217392" />
+        <entry key="app/src/main/res/layout/fragment_b.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_item.xml" value="0.18885869565217392" />
+        <entry key="app/src/main/res/layout/fragment_item_list.xml" value="0.18885869565217392" />
+        <entry key="app/src/main/res/layout/image_recycler_item.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/img_recycler_item.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/task_recycler_item.xml" value="0.12552083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1503623188405797" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

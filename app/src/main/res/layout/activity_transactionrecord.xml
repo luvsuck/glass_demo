@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TransactionRecordActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15sp"
+            android:text="现场处理记录"
+            android:textColor="@color/common_white"
+            android:textSize="24sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_left"
+                android:layout_width="45dp"
+                android:layout_height="195dp"
+                android:layout_marginStart="40dp"
+                android:gravity="center"
+                android:text=" "
+                android:textAlignment="center"
+                android:textColor="@color/common_white"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/tv_large"
+                android:layout_width="match_parent"
+                android:layout_height="195dp"
+                android:layout_marginEnd="40dp"
+                android:layout_toEndOf="@id/tv_left"
+                android:scrollbars="vertical"
+                android:singleLine="false"
+                android:textColor="@color/common_white"
+                android:textSize="22sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="12" />
+
+            <TextView
+                android:id="@+id/label"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="附件:"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/attachmentBox"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/white" />
+
+            <Button
+                android:id="@+id/nextStep"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_style"
+                android:drawableEnd="@drawable/next"
+                android:gravity="center"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-120sp"
+            app:indicatorName="BallPulseIndicator" />
+    </LinearLayout>
+</ScrollView>

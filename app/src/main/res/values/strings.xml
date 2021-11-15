@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">JKDemo</string>
+    <string name="host_address">http://10.5.13.111:8181/</string>
+</resources>
